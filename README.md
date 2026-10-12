@@ -24,6 +24,10 @@ I designed and run a 13-step agentic delivery pipeline that takes a ticket to a 
 
 Stack: React · C# / .NET · Azure · Kubernetes · Docker · Playwright
 
+## Projects
+
+- **[scoped-google-drive-mcp](https://github.com/mwhesse42/scoped-google-drive-mcp)** · C# / .NET MCP server that gives an AI agent access only to the Google Drive files and folders you share with it. The standard Drive connectors ask for your whole Drive; this one signs in as a Google service account, so access is granted and revoked through Drive sharing. It has a read-only mode, unit tests against a mocked Drive client, and CI.
+
 ## How I work
 
 - **Treat the AI workflow as a system.** Measure where it fails, fix the stage that should have caught it, and only change the process when the evidence says so.
